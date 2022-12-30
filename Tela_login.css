@@ -1,0 +1,66 @@
+
+        body{
+            
+            display: flex;
+            justify-content: center;
+            align-items:center;                                              
+            height: 100vh;
+            width: 100vw;
+            font-family:Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgb(76, 0, 255), cyan);
+            margin: 0;
+
+
+        }
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 60px;
+        border-radius: 15px;
+        color: white;
+    
+           
+           }
+           .title{
+            align-self: center;
+           }
+
+           .nome_portal{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+           }
+
+           .inputs{
+            display: flex;
+            padding: 12px 20px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+           }
+
+           .botaoenviar{
+            background-color:dodgerblue;
+            border: none;
+            padding: 15px;
+            outline: none;
+            border-radius: 10px;
+            width: 100%;
+            font-size: 15px;
+            cursor: pointer;
+            }
+            button:hover {
+                background-color: deepskyblue;
+            }
+
+            .imagemlogin{
+                display: flex;
+                align-items: flex-end;
+                width: 100px;
+                height: 80px;
+
+            }
